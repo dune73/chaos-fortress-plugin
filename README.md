@@ -4,7 +4,7 @@
 
 Original author: Christian Folini / [dune73](https://github.com/dune73).
 
-Presentation about this plugin at GoHack Zurich 2024: [FIXME:Link](https://christian-folini.ch)
+Presentation about this plugin at GoHack Zurich 2024: [Slides](https://www.slideshare.net/slideshow/using-a-waf-to-make-the-life-of-bug-bounty-hunters-miserable/273337644)
 
 See [https://github.com/coreruleset/plugin-registry](https://github.com/coreruleset/plugin-registry) for documentation about CRS plugins.
 
