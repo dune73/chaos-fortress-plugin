@@ -1,4 +1,4 @@
-# Fortress of Chaos Plugin
+# Chaos Fortress Plugin
 
 [OWASP CRS](https://coreruleset.org) plugin providing chaotic / unpredictable behavior changes that makes lives of attackers very difficult.
 
