@@ -1,12 +1,10 @@
 # Chaos Fortress Plugin
 
-[OWASP CRS](https://coreruleset.org) plugin that attempts to break the feedback loop for attackers, effectively making adversarial machine learning way harder.
+This is a [OWASP CRS](https://coreruleset.org) Web Application Firewall plugin that attempts to break the HTTP feedback loop for attackers, effectively making adversarial machine learning way harder when facing the WAF.
 
 It does this by delaying attacking requests and by sending random status codes instead of the standard 403.
 
-**CAVEAT**: Do not use Chaos Fortress unless you are 100% sure you do not have any false positives on a service. Users hitting false positives will be maltreated by Chaos Fortress.
-
-First, I did this for fun. But now I think it might actually be useful.
+**CAVEAT**: Do not use Chaos Fortress unless you are 100% sure you do not have any false positives on a WAF service. Users hitting false positives will be maltreated by Chaos Fortress.
 
 Original author: Christian Folini / [dune73](https://github.com/dune73).
 
@@ -22,4 +20,6 @@ See [https://github.com/coreruleset/plugin-registry](https://github.com/corerule
 * Maximum delay is configurable.
 
 ### TODO
-* Chaos Fortress is not compatible with early blocking.
+* Look into Nepenthes and try to integrate it
+* Test support for chaos level 0 properly
+* Test support for CRS early blocking properly
