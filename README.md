@@ -23,3 +23,4 @@ See [https://github.com/coreruleset/plugin-registry](https://github.com/corerule
 * Look into Nepenthes and try to integrate it
 * Test support for chaos level 0 properly
 * Test support for CRS early blocking properly
+* Introduce IP allowlist that is not affected by Chaos Fortress
